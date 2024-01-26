@@ -1,0 +1,236 @@
+.__ph__pattern-detected {
+    /** background-color: red !important; **/
+    border: 2px solid black !important;
+}
+
+.__ph__current-pattern {
+    z-index: 10000 !important;
+    box-shadow: 0 0 120px 150px red;
+    animation: __ph__highlight 5s;
+    opacity: 0;
+}
+
+@keyframes __ph__highlight {
+    from {
+        opacity: 0.75;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ppopins", sans-serif;
+  background: #121212;
+}
+
+h3 {
+  text-align: center;
+  margin: 70px 0 20px;
+}
+
+.main--container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 800px;
+  background: #ffffff;
+}
+
+.main--container .large--button--container {
+  width: 43%;
+  display: inline-block;
+}
+
+.css--buttons--title {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0 30px;
+}
+
+.css--buttons--container {
+  text-align: center;
+}
+
+.css--buttons--container > div {
+  margin: 20px;
+}
+
+.css--button--icon--padding, .right--icon--button, .left--icon--button, .center--icon--button {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.css--button--background--hover--effect, .warning--button:hover, .danger--button:hover, .success--button:hover, .secondary--button:hover, .primary--button:hover, .css--button:hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1px inset;
+}
+
+.css--button {
+  transition: background 300ms, color 300ms, box-shadow 300ms;
+  background: #F7F7F7;
+  font-size: 15px;
+  color: #555555;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+}
+.css--button i {
+  vertical-align: middle;
+}
+
+.border--button, .warning--border--button, .danger--border--button, .success--border--button, .secondary--border--button, .primary--border--button, .default--border--button {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1px inset;
+}
+
+.disabled--button {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.radius--button {
+  border-radius: 50px;
+}
+
+.default--border--button:hover {
+  background: #F7F7F7;
+  box-shadow: 0px 0px 0px 1px #F7F7F7 inset;
+}
+
+.left--icon--button > i {
+  margin-right: 5px;
+}
+
+.right--icon--button {
+  direction: rtl;
+}
+.right--icon--button > i {
+  margin-left: 5px;
+}
+
+.large--button {
+  display: block;
+  width: 100%;
+}
+
+.primary--button {
+  background: #5CCFE9;
+  color: #FFFFFF;
+}
+.primary--button:hover {
+  color: #5CCFE9;
+}
+
+.primary--border--button {
+  color: #5CCFE9;
+}
+.primary--border--button:hover {
+  background: #5CCFE9;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #5CCFE9 inset;
+}
+
+.secondary--button {
+  background: #5A68C6;
+  color: #FFFFFF;
+}
+.secondary--button:hover {
+  color: #5A68C6;
+}
+
+.secondary--border--button {
+  color: #5A68C6;
+}
+.secondary--border--button:hover {
+  background: #5A68C6;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #5A68C6 inset;
+}
+
+.success--button {
+  background: #36C398;
+  color: #FFFFFF;
+}
+.success--button:hover {
+  color: #36C398;
+}
+
+.success--border--button {
+  color: #36C398;
+}
+.success--border--button:hover {
+  background: #36C398;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #36C398 inset;
+}
+
+.danger--button {
+  background: #EE352E;
+  color: #FFFFFF;
+}
+.danger--button:hover {
+  color: #EE352E;
+}
+
+.danger--border--button {
+  color: #EE352E;
+}
+.danger--border--button:hover {
+  background: #EE352E;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #EE352E inset;
+}
+
+.warning--button {
+  background: #FFD331;
+  color: #FFFFFF;
+}
+.warning--button:hover {
+  color: #FFD331;
+}
+
+.warning--border--button {
+  color: #FFD331;
+}
+.warning--border--button:hover {
+  background: #FFD331;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #FFD331 inset;
+}
+
+.signature-wrapper {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.signature-wrapper .signature-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.signature-wrapper .signature-link {
+  color: #f36e2e;
+  display: inline-block;
+  margin: 20px 0 10px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-bottom: solid 2px #ddd;
+}/*# sourceMappingURL=style.css.map */

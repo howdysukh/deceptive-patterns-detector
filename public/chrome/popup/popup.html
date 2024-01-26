@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleshets/style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+    body {
+        font-family: "Poppins", sans-serif;
+        width: 600px; /* Set the width of the popup */
+        height: 300px; /* Set the height of the popup */
+        margin: 0;
+        padding: 0;
+    }
+    .switch2 {
+         position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch2 input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ppopins", sans-serif;
+  background: #121212;
+}
+
+h3 {
+  text-align: center;
+  margin: 70px 0 20px;
+}
+
+.main--container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 800px;
+  background: #ffffff;
+}
+
+.main--container .large--button--container {
+  width: 43%;
+  display: inline-block;
+}
+
+.css--buttons--title {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0 30px;
+}
+
+.css--buttons--container {
+  text-align: center;
+}
+
+.css--buttons--container > div {
+  margin: 20px;
+}
+
+.css--button--icon--padding, .right--icon--button, .left--icon--button, .center--icon--button {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.css--button--background--hover--effect, .warning--button:hover, .danger--button:hover, .success--button:hover, .secondary--button:hover, .primary--button:hover, .css--button:hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1px inset;
+}
+
+.css--button {
+  transition: background 300ms, color 300ms, box-shadow 300ms;
+  background: #F7F7F7;
+  font-size: 15px;
+  color: #555555;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+}
+.css--button i {
+  vertical-align: middle;
+}
+
+.border--button, .warning--border--button, .danger--border--button, .success--border--button, .secondary--border--button, .primary--border--button, .default--border--button {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1px inset;
+}
+
+.disabled--button {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.radius--button {
+  border-radius: 50px;
+}
+
+.default--border--button:hover {
+  background: #F7F7F7;
+  box-shadow: 0px 0px 0px 1px #F7F7F7 inset;
+}
+
+.left--icon--button > i {
+  margin-right: 5px;
+}
+
+.right--icon--button {
+  direction: rtl;
+}
+.right--icon--button > i {
+  margin-left: 5px;
+}
+
+.large--button {
+  display: block;
+  width: 100%;
+}
+
+.primary--button {
+  background: #5CCFE9;
+  color: #FFFFFF;
+}
+.primary--button:hover {
+  color: #5CCFE9;
+}
+
+.primary--border--button {
+  color: #5CCFE9;
+}
+.primary--border--button:hover {
+  background: #5CCFE9;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #5CCFE9 inset;
+}
+
+.secondary--button {
+  background: #5A68C6;
+  color: #FFFFFF;
+}
+.secondary--button:hover {
+  color: #5A68C6;
+}
+
+.secondary--border--button {
+  color: #5A68C6;
+}
+.secondary--border--button:hover {
+  background: #5A68C6;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #5A68C6 inset;
+}
+
+.success--button {
+  background: #36C398;
+  color: #FFFFFF;
+}
+.success--button:hover {
+  color: #36C398;
+}
+
+.success--border--button {
+  color: #36C398;
+}
+.success--border--button:hover {
+  background: #36C398;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #36C398 inset;
+}
+
+.danger--button {
+  background: #EE352E;
+  color: #FFFFFF;
+}
+.danger--button:hover {
+  color: #EE352E;
+}
+
+.danger--border--button {
+  color: #EE352E;
+}
+.danger--border--button:hover {
+  background: #EE352E;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #EE352E inset;
+}
+
+.warning--button {
+  background: #FFD331;
+  color: #FFFFFF;
+}
+.warning--button:hover {
+  color: #FFD331;
+}
+
+.warning--border--button {
+  color: #FFD331;
+}
+.warning--border--button:hover {
+  background: #FFD331;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #FFD331 inset;
+}
+
+.signature-wrapper {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.signature-wrapper .signature-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.signature-wrapper .signature-link {
+  color: #f36e2e;
+  display: inline-block;
+  margin: 20px 0 10px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-bottom: solid 2px #ddd;
+}/*# sourceMappingURL=style.css.map */
+
+
+</style>
+<body>
+    
+        <extension-popup></extension-popup>
+    
+    <div class="main--container">
+        
+
+        <center> 
+        <label class="switch2">
+            
+            <input type="checkbox" id="myCheckbox" checked disabled>
+            <span class="slider round"></span>
+          </label>
+      </center>
+      
+      <h1 class="css--buttons--title">Dark Patterns detector</h1>
+        <!--   default button -->
+        <center>
+        <h2 style="color:red">No. of dark patterns detected: </h3>
+            <h1 style="color:red"><span id="darkPatternsCount"></span></h1>
+        <div class="css--buttons--container">
+          <h1 style="color:rgb(4, 4, 4)"><span id="darkPatternsCount2"></span></h1>
+        <div class="css--buttons--container">
+          
+          <script>
+            return html`
+        <div>
+            <h2>${brw.i18n.getMessage("headingShowPattern")}</h2>
+            <span class="button" @click=${this.showPreviousPattern}>⏮️</span>
+            <span>${brw.i18n.getMessage("showPatternState", [this.getCurrentPatternNumber(), this.results.countVisible.toString()])}</span>
+            <span class="button" >⏭️</span>
+            ${this.getCurrentPatternText()}
+        </div>
+      `;
+          </script>
+
+        <div class="hint--top" aria-label="css--button radius--button">
+           
+        </div>
+          
+          <div class="hint--top" aria-label="css--button default--border--button right--icon--button">
+            <button id="myButton" class="css--button default--border--button right--icon--button"><i class="fa fa-paper-plane-o"></i>Report on dapde</button></div>
+          
+            <div class="hint--top" aria-label="css--button default--border--button right--icon--button">
+                <button id="myButton2" class="css--button default--border--button right--icon--button"><i class="fa fa-paper-plane-o"></i>Report on Deceptive.Design</button></div>
+              
+    
+          <div class="hint--top large--button--container" aria-label="css--button large--button"><button style="color:darkblue" class="css--button large--button">Remove Dark Patterns forever <i style="color:gold">premium</i></button></div>  
+    
+          <div class="hint--top large--button--container" aria-label="css--button default--border--button large--button"><button class="css--button default--border--button large--button">Donate Us</button></div>        
+          <!-- default -->
+
+      
+          <div class="signature-title">
+            This extension is made for <a class="signature-link" target="_blank" href="https://dpbh2023.in">DPBH2023</a> Organized by <a class="signature-link" target="_blank" href="https://doca.gov.in/goc">MoCA</a>, Government of India; With 💝 by a team of First Year CSE Students': InnoveSphere of <a class="signature-link" target="_blank" href="https://cuchd.in">Chandiagrh University</a>, Punjab. 
+          </div>
+          
+          view on <a class="signature-link" target="_blank" href="https://github.com/howdysukh/deceptive-patterns-detector">Github</a>  |  <a class="signature-link" target="_blank" id="alert" href="">turn off extension</a>  | <a class="signature-link" target="_blank" href="">Case Study</a>
+        </div>
+    
+    </center> 
+        <!-- signature -->
+      </div>
+</body>
+<script type="module" src="popup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/danfojs"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</html>

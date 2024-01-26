@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Patterns Detector",
+    "description": "Detects dark patterns on websites, USP: Predicts the prize of the product with added Hidden charges withiut adding into cart.",
+    "version": "6.1.99",
+    "default_locale": "en",
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "css": [
+                "stylesheets/style.css"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "scripts/constants.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    }
+}
