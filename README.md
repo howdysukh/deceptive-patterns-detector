@@ -46,6 +46,15 @@ We are InnoveSphere; A team of five students, frrom First Year CSE , Proudly fro
 
 ## Installation 
 First Download project folder from [here](https://github.com/howdysukh/dark-patterns/raw/master/DPBH%20FINAL.zip) and upload in your browser's Extension store. [Visit: WIKI / Getting Started](https://)
+## Browser Compatibility
+| Browser         	| Is compatible? 	| Tested versions                                                               	|
+|-----------------	|:--------------:	|-------------------------------------------------------------------------------	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/chrome.svg" width="24px" style="background: white" /> Google Chrome   	|        ✅       	| <ul><li>113.0.5672.92 (Mac/arm64)</li><li>113.0.5672.93 (Win/x64)</li></ul> 	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/edge.svg" width="24px" style="background: white" /> Microsoft Edge  	|        ✅       	| <ul><li>113.0.1774.35 (Mac/arm64)</li><li>113.0.1774.35 (Win/x64)</li></ul>   	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/safari.svg" width="24px" style="background: white" /> Safari          	|        ✅       	| <ul><li>16.4 (18615.1.26.110.1) (Mac/arm64)</ul></li>                            	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/firefox.svg" width="24px" style="background: white" /> Mozilla Firefox 	|        ✅       	| <ul><li>113.0 (Mac/arm64)</li><li>112.0.2 (Win/x64)</li></ul>   	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/opera.svg" width="24px" style="background: white" /> Opera           	|        ✅       	| <ul><li>98.0.4759.39 (Mac/arm64)</li><li>98.0.4759.39 (Win/x64)</ul></li>       	|
+
 
 ## Screenshots
 ![Screenshotdeployment1](https://github.com/howdysukh/deceptive-patterns-detector/assets/151936235/1630f918-1ed8-4766-b6df-9e1b5ffee538)
