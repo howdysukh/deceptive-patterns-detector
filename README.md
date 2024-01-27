@@ -20,19 +20,19 @@ We are InnoveSphere; A team of five students, frrom First Year CSE , Proudly fro
 > [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
 
 **Sai  Shashank Singu** [Co-Leader]
-> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
+> [linkedin](https://www.linkedin.com/in/sai-shashank-singu-868682285/) | [Github](https://github.com/saishashanksingu) | [Insta](https://instagram.com/saishashanksingu/)
 
 **Tanika Roy** [Head Researcher]
-> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
+> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/Tani1510) | [Insta](https://instagram.com/xukhh/)
 
 **Muskan Kran** [Lead Dev Head]
-> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
+> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/karnmuskan03) | [Insta](https://instagram.com/xukhh/)
 
 **Priyanka** [Lead Graphics Designer]
 > [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
 
 **Dr. (Prof.) Vikas Mittal** [Mentor & Associate Professor at CU]
-> [linkedin](https://linkedin.com/in/heysukhman) | [Github](https://github.com/howdysukh) | [Insta](https://instagram.com/xukhh/)
+> [linkedin](https://www.linkedin.com/in/dr-vikas-mittal-a614a979?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [Github](https://github.com/mail2drmittal) 
 
 
 
