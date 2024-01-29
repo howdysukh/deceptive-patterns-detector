@@ -1,11 +1,7 @@
-// Import the required components from the Lit Library 
+
 import { css, unsafeCSS } from '../scripts/lit/lit-core.min.js';
 
-/**
- * The object to access the API functions of the browser.
- * @constant
- * @type {{runtime: object, tabs: object, i18n: object}} BrowserAPI
- */
+
 const brw = chrome;
 
 export const sharedStyles = css`
@@ -68,7 +64,7 @@ export const patternsListStyles = css`
     }
 `;
 
-// On/Off Flipswitch from https://proto.io/freebies/onoff/
+
 export const onOffSwitchStyles = css`
     div {
         position: relative;
