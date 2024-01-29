@@ -37,7 +37,12 @@ We are InnoveSphere; A team of five students, frrom First Year CSE , Proudly fro
 ## ♨️ VERSION HISTORY
 We are working on to create a database which will be having the data of all the users that our scamed from these sites  will help the government to take action against e-commerce sites for the crime.
 
-## Features
+🌀 Working on making extension run on [firebase](https://https://firebase.google.com/) to access your Web History.
+🌀 Working on modifying Extension Working .
+🌀 Prize Analyser and will be added soon, We are Hardly Working on that.
+🌀 Working on Highlight one by one patterns.
+
+## Features 
 - can detect dark patterns in most of the ecommerce sites such as amazon, flipkart, shopsy,etc
 - employs Machine learning and NLP(Natural Language processing) to analyse each and every piece of text on the site
 - Live dark pattern score for the websites
