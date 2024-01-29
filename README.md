@@ -34,7 +34,8 @@ We are InnoveSphere; A team of five students, frrom First Year CSE , Proudly fro
 **Dr. (Prof.) Vikas Mittal** [Mentor & Associate Professor at CU]
 > [linkedin](https://www.linkedin.com/in/dr-vikas-mittal-a614a979?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [Github](https://github.com/mail2drmittal) 
 
-
+## ♨️ VERSION HISTORY
+We are working on to create a database which will be having the data of all the users that our scamed from these sites  will help the government to take action against e-commerce sites for the crime.
 
 ## Features
 - can detect dark patterns in most of the ecommerce sites such as amazon, flipkart, shopsy,etc
